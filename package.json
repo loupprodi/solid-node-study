@@ -1,0 +1,17 @@
+{
+  "name": "api-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/http/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.6",
+    "tsx": "^4.15.6",
+    "typescript": "^5.4.5"
+  }
+}
