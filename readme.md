@@ -30,3 +30,10 @@
 >npx prisma db push
 
 >npx prisma studio
+
+### Permite usar os comandos do prisma
+>npm install @prisma/client
+
+>npm install express
+
+> npm install @types/express -D

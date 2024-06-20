@@ -7,6 +7,11 @@ export type BuyOutputDto ={
     balance: number;
 }
 
+export type CreateOutputDto ={
+    id: string;
+    balance: number;
+}
+
 export type ListOutputDto ={
     products:{
         id: string;
@@ -20,4 +25,5 @@ export interface ProductService {
     sell(id: string, amount: number): Promise<SellOutputDto>;
     buy(id: string, amount: number): Promise<BuyOutputDto>;
     list(): Promise<ListOutputDto>;
+    create(name: string, price: number): Promise<CreateOutputDto>;
 }
