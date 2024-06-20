@@ -1,13 +1,3 @@
->npm init -y
-
->npm install typescript @types/node -D
-
->npx tsc --init
-
->npm install tsx -D
-
-
-
 
     ## SOLID
     
@@ -20,3 +10,23 @@
     # Interface Segregation -> a implementação concreta de uma interface deveria implementar todos os metodos
 
     # Depedency inversion -> uma classe deveria depender de uma abstração e não de uma implementação concreta
+
+
+
+>npm init -y
+
+>npm install typescript @types/node -D
+
+>npx tsc --init
+
+>npm install tsx -D
+
+>npm install prisma --save-dev
+
+>npx prisma init
+
+>npm i dotenv
+
+>npx prisma db push
+
+>npx prisma studio
